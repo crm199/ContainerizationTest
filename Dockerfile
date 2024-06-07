@@ -1,6 +1,6 @@
 FROM python:2.7
 
-WORKDIR /app
+WORKDIR /app/locallibrary
 
 COPY requirements.txt ./
 
