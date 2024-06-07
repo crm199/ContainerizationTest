@@ -144,8 +144,8 @@ SECURE_HSTS_PRELOAD = True
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 X_FRAME_OPTIONS = 'DENY'
-ALLOWED_HOSTS = ['203076.pythonanywhere.com', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['HTTPS://203076.pythonanywhere.com']
+ALLOWED_HOSTS = ['crm199.pythonanywhere.com', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://crm199.pythonanywhere.com']
 
 '''
 if 'DATABASE_URL' in os.environ:
