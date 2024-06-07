@@ -14,7 +14,7 @@ import os
 
 import dj_database_url
 
-from urlparse import urlparse
+from six.moves.urllib.parse import urlparse
 
 #from django.utils.six.moves.urllib.parse import urlparse
 
