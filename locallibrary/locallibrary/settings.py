@@ -14,8 +14,8 @@ import os
 
 import dj_database_url
 
-from six.moves.urllib.parse import urlparse
-
+#from six.moves.urllib.parse import urlparse
+import urlparse
 #from django.utils.six.moves.urllib.parse import urlparse
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
