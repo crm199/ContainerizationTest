@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
-import dj_database_url
+#import dj_database_url
 
 #from six.moves.urllib.parse import urlparse
 import urlparse
@@ -147,9 +147,10 @@ X_FRAME_OPTIONS = 'DENY'
 ALLOWED_HOSTS = ['203076.pythonanywhere.com', '127.0.0.1']
 CSRF_TRUSTED_ORIGINS = ['HTTPS://203076.pythonanywhere.com']
 
-
+'''
 if 'DATABASE_URL' in os.environ:
     DATABASES['default'] = dj_database_url.config(
         conn_max_age=500,
         conn_health_checks=True,
     )
+'''
